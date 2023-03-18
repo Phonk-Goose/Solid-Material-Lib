@@ -1,0 +1,47 @@
+{
+  "name": "@phonk-goose/solid-material-lib",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/phonk-goose"
+  },
+  "description": "Basic components to gnd project",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "preview": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phonk-Goose/Solid-Material-Lib.git"
+  },
+  "author": "Kenyo-cell",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Phonk-Goose/Solid-Material-Lib/issues"
+  },
+  "homepage": "https://github.com/Phonk-Goose/Solid-Material-Lib#readme",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "babel-preset-solid": "^1.6.13",
+    "eslint": "^8.36.0",
+    "eslint-plugin-solid": "^0.11.0",
+    "rollup": "^3.19.1",
+    "rollup-plugin-dts": "^5.3.0",
+    "solid-js": "^1.6.15",
+    "solid-testing-library": "^0.5.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.0",
+    "vite-plugin-solid": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "babel-loader": "^8.3.0"
+  }
+}
