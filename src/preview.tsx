@@ -6,7 +6,7 @@ import './index.css'
 
 const PreviewApp: Component  = () => {
     return(
-        <Button label='jopa' />
+        <Button label='Button' />
     )
 }
 

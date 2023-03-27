@@ -6,7 +6,7 @@ export interface ButtonProps {
 
 const Button: Component<ButtonProps> = (props) => {
     return (
-        <button class="bg-purple-700">
+        <button class="text-sm font-ui px-6 py-[10px] leading-[17px] bg-green-primary text-green-on-primary rounded-[100px]">
             {props.label}
         </button>
     );
