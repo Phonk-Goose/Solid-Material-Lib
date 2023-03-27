@@ -6,7 +6,7 @@ export interface ButtonProps {
 
 const Button: Component<ButtonProps> = (props) => {
     return (
-        <button>
+        <button class="bg-purple-700">
             {props.label}
         </button>
     );
